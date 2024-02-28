@@ -1,15 +1,12 @@
 import os
 import openai
 
+from Embeddings.Emeddings_demo import client
+
 openai.api_key = os.environ['OPENAI_API_KEY']
 
-response = openai.Embedding.create(
-    input="Learn share and grow",
-    model="text-embedding-ada-002"
-
+response = client.embeddings.create(
+    model="embedded_demo",
+    input="cat"
 )
-emdeddings_1= response['data'][0]['embedding']
-emdeddings_2= response['data'][1]['embedding']
-
-similarity_score =np.dot(emdeddings_1,emdeddings_2)
-print(similarity_score*100,"%")
+print(response)

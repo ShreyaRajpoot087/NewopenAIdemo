@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16b520f6-ea83-492f-95df-63aed684dd4d" name="Changes" comment="Hi , This is openAI Emeddingsdemo.py code">
+    <list default="true" id="16b520f6-ea83-492f-95df-63aed684dd4d" name="Changes" comment="Hi , This is openAI Audio.py code">
+      <change afterPath="$PROJECT_DIR$/DallE/DALLE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DallE/Image_DallE_Create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DallE/api_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fine Tunning/Fine Tunning" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fine Tunning/finetuning_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fine Tunning/training_set.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fine Tunning/validation_set.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AzureopenAIdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AzureopenAIdemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Emeddingsdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emeddingsdemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +51,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Audio.executor": "Run",
+    "Python.Emed_similarity.executor": "Run",
     "Python.Emeddingsdemo.executor": "Run",
+    "Python.Image_DallE_Create.executor": "Run",
+    "Python.Transcipt.executor": "Run",
+    "Python.Translate.executor": "Run",
+    "Python.finetuning_demo.executor": "Run",
+    "Python.function.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mix_audio.executor": "Run",
     "Python.text_demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Emeddingspythondemo",
+    "last_opened_file_path": "C:/Users/ssing152/PycharmProjects/AzureopenAIdemo/DallE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,8 +75,111 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Emeddingsdemo">
-    <configuration name="Emeddingsdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ssing152\PycharmProjects\AzureopenAIdemo\DallE" />
+      <recent name="C:\Users\ssing152\PycharmProjects\AzureopenAIdemo\Fine Tunning" />
+      <recent name="C:\Users\ssing152\PycharmProjects\AzureopenAIdemo\Audio" />
+      <recent name="C:\Users\ssing152\PycharmProjects\AzureopenAIdemo\Embeddings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ssing152\PycharmProjects\AzureopenAIdemo\Audio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.function">
+    <configuration name="Emed_similarity" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="AzureopenAIdemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Embeddings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Embeddings/Emed_similarity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Image_DallE_Create" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AzureopenAIdemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DallE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DallE/Image_DallE_Create.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Translate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AzureopenAIdemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Audio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Audio/Translate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="finetuning_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AzureopenAIdemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fine Tunning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fine Tunning/finetuning_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AzureopenAIdemo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +193,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Emeddingsdemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,9 +225,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mix_audio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AzureopenAIdemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Audio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Audio/mix_audio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Emeddingsdemo" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.Image_DallE_Create" />
+        <item itemvalue="Python.finetuning_demo" />
+        <item itemvalue="Python.mix_audio" />
+        <item itemvalue="Python.Translate" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709029967696</updated>
-      <workItem from="1709029977748" duration="5028000" />
+      <workItem from="1709029977748" duration="20803000" />
     </task>
     <task id="LOCAL-00001" summary="Hi , This is openAZ multiple parameter code">
       <option name="closed" value="true" />
@@ -142,7 +291,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709036097983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hi , This is openAI Emeddingsdemo.py code">
+      <option name="closed" value="true" />
+      <created>1709036750223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709036750223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Hi , This is openAI Emedsimilarity.py code">
+      <option name="closed" value="true" />
+      <created>1709038698855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709038698855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Hi , This is openAI Audio.py code">
+      <option name="closed" value="true" />
+      <created>1709044102978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709044102978</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hi , This is openAI Audio.py code">
+      <option name="closed" value="true" />
+      <created>1709056256751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709056256751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +333,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hi , This is openAZ multiple parameter code" />
     <MESSAGE value="Hi , This is openAI Emeddingsdemo.py code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hi , This is openAI Emeddingsdemo.py code" />
+    <MESSAGE value="Hi , This is openAI Emedsimilarity.py code" />
+    <MESSAGE value="Hi , This is openAI Audio.py code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hi , This is openAI Audio.py code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,8 +349,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$mix_audio.coverage" NAME="mix_audio Coverage Results" MODIFIED="1709055979778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Audio" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$finetuning_demo.coverage" NAME="finetuning_demo Coverage Results" MODIFIED="1709128769302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine Tunning" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Translate.coverage" NAME="Translate Coverage Results" MODIFIED="1709055365977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Audio" />
     <SUITE FILE_PATH="coverage/AzureopenAIdemo$text_demo.coverage" NAME="text_demo Coverage Results" MODIFIED="1709031762753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Emeddingsdemo.coverage" NAME="Emeddingsdemo Coverage Results" MODIFIED="1709035963514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Emeddingsdemo.coverage" NAME="Emeddingsdemo Coverage Results" MODIFIED="1709037528411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Emed_similarity.coverage" NAME="Emed_similarity Coverage Results" MODIFIED="1709038503505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Embeddings" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$function.coverage" NAME="function Coverage Results" MODIFIED="1709132956904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Audio.coverage" NAME="Audio Coverage Results" MODIFIED="1709044067863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Audio" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Transcipt.coverage" NAME="Transcipt Coverage Results" MODIFIED="1709055040015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Audio" />
     <SUITE FILE_PATH="coverage/AzureopenAIdemo$main.coverage" NAME="main Coverage Results" MODIFIED="1709030595142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AzureopenAIdemo$Image_DallE_Create.coverage" NAME="Image_DallE_Create Coverage Results" MODIFIED="1709130107963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DallE" />
   </component>
 </project>
