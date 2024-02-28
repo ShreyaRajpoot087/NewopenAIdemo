@@ -1,0 +1,13 @@
+Fine tuning is process of retraining the train model
+we do it for mainly two reasons
+1- prompt engineering
+2- retrieval argument generation(use your own data)
+process
+prepare training and validation data
+upload your training data
+train your new customized model
+deploy your customized model
+test the model using playground
+use your customized model
+
+
